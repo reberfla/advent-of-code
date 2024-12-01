@@ -4,3 +4,7 @@
 build
 src/**/*.txt
 local.properties
+kls_database.db
+
+## Hide Advent of Code input files
+input/
