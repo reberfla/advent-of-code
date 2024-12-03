@@ -61,9 +61,9 @@ fun main() {
     }
 
 
-    check(part1(readInput("Day02_test"))==2)
-    check(part2(readInput("Day02_test"))==4)
-    val input = readInput("Day02")
+    check(part1(readInputLines("Day02_test"))==2)
+    check(part2(readInputLines("Day02_test"))==4)
+    val input = readInputLines("Day02")
     part1(input).println()
     part2(input).println()
 }

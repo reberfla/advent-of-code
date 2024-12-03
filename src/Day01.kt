@@ -33,7 +33,7 @@ fun main() {
         return leftCol.sumOf{if(rightCol.keys.contains(it)){ it * rightCol[it]!!} else 0}
     }
 
-    val input = readInput("Day01")
+    val input = readInputLines("Day01")
     part1(input).println()
     part2(input).println()
 }

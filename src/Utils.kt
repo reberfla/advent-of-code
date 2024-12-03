@@ -3,7 +3,8 @@ import java.security.MessageDigest
 import kotlin.io.path.Path
 import kotlin.io.path.readText
 
-fun readInput(name: String) = Path("input/$name.txt").readText().trim().lines()
+fun readInputLines(name: String) = Path("input/$name.txt").readText().trim().lines()
+fun readInputString(name: String) = Path("input/$name.txt").readText()
 
 //md5 hash
 fun String.md5() = BigInteger(1, MessageDigest.getInstance("MD5").digest(toByteArray()))
